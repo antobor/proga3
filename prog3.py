@@ -17,7 +17,7 @@ print(f'width={w1}, height={h1}, size={im1.size}')
 print(f'width={w2}, height={h2}, size={im2.size}')
 
 # imwrite('copy.jpg', im, format='jpg') # пересохраняем исходное изображение
-w0 = max(w1,w1)
+w0 = max(w1,w2)
 
 im3 = np.zeros((h1+h2,w0,d1), dtype=np.uint8)
 
