@@ -25,7 +25,7 @@ for ix in range(w1):
    for iy in range(h1):
         im3[iy][ix]=im1[iy][ix]
 for ix in range(w2):
-   for iy in range(h1):
+   for iy in range(h2):
         im3[iy+h1-1][ix]=im2[iy][ix]
 
 imwrite(output, im3, format='jpg') # сохраняем транспонированное изображение 
